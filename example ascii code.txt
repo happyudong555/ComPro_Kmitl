@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+
+    /// sysntex ascii code
+
+   //int ascii_a = 'a';
+   //int ascii_Z = 'Z';
+
+   //printf("Ascii a: %d\n", ascii_a);
+   //printf("Ascii Z: %d\n", ascii_Z);
+   
+
+   /// ตัวอย่าง code รับค่าตัวอักษร แปลงไปเป็น ตัวเลข Ascii code
+   
+    char AScii;
+    scanf("%c", &AScii);
+    printf("%i\n", AScii);
+
+    /// รับค่าตัวเลข แปลงไปเป็น ตัวอักษร Ascii code
+
+    int AScii;
+    scanf("%i", &AScii);
+    printf("%c\n", AScii);
+
+   return 0;
+}
